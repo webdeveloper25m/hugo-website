@@ -1,4 +1,9 @@
 ---
 label: post
 hide_body: true
-fields: []
+fields:
+- name: email
+  type: text
+  config:
+    required: false
+  label: email
